@@ -125,8 +125,11 @@ ClinicalTrials.gov, Consensus.
       de submission/reportes
 - [x] Track 2: mecanismo de BUB1B-MVA caracterizado + candidatos de
       reposicionamiento (bosutinib, metformina) con evidencia de ChEMBL/Elicit/STRING/Reactome/cBioPortal
-- [ ] Subir submission en las pestañas "Submit - Track 1" y "Submit - Track 2"
-      del Space
+- [x] **Track 1 subido y evaluado**: Rank points 100.0/100, F-max 1.000,
+      "Full match at rank 1" (proband_id correcto: `PROBAND01`, no el nombre
+      de muestra del VCF — lección aprendida, corregido y documentado)
+- [ ] Subir submission en "Submit - Track 2" del Space (pendiente: requiere
+      video pitch)
 - [ ] Grabar y subir el video pitch de 3 min (guion listo en
       `Track 2/pitch_video_script.md`)
 - [ ] Hacer público el repo de GitHub (solo después de que cierre el
