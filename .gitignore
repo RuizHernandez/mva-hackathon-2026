@@ -1,0 +1,21 @@
+# Datos crudos del hackathon (gated, ~85GB, NO redistribuir)
+data/*
+!data/.gitkeep
+
+# Entornos virtuales / Python
+venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Salidas grandes / intermedias
+*.bam
+*.bai
+*.cram
+*.vcf.gz.tbi
+*.fastq.gz
+*.fq.gz
+
+# Secretos
+.env
+*.token
