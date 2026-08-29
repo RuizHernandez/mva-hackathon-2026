@@ -1,6 +1,6 @@
 # Track 1 Methods Report — MVA Hackathon 2026
 
-**Team / participant:** ihruizh (verify against actual Hugging Face username before submitting)
+**Team / participant:** IHRH (verify against actual Hugging Face username before submitting)
 **Proband:** WGS_EX2312012 (singleton WGS, GRCh38, no parental samples provided)
 
 ## 1. Clinical phenotype summary

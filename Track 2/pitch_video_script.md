@@ -83,5 +83,5 @@ stage/visual directions, not spoken.
   I can produce a Spanish version on request — just ask.
 - Every specific claim above (ClinVar status, SIFT/PolyPhen, STRING/Reactome
   results, the two drugs' approval status and mechanism papers) is already
-  documented with citations in `ihruizh_track2_report.md` — cite the report
+  documented with citations in `IHRH_track2_report.md` — cite the report
   in the video description for judges who want the sources.

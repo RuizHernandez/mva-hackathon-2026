@@ -66,11 +66,9 @@ CUDA disponible). Paquetes relevantes ya instalados: `biopython`, `pandas`,
 `numpy`, `scikit-learn`, `xgboost`, `shap`, `networkx`, `gseapy`, `rdkit`,
 `torch`/`transformers`, `huggingface_hub`, `gget`, `pyvcf3`.
 
-> `cyvcf2`/`pysam` no compilan en Windows nativo (requieren htslib). Si se necesita
-> procesar VCFs muy grandes de forma eficiente, hay WSL Ubuntu instalado en esta
-> máquina pero sin herramientas de bioinformática todavía — para instalarlas hace
-> falta `sudo apt install bcftools samtools tabix build-essential python3-pip`
-> una sola vez, de forma interactiva (requiere contraseña, no lo puedo ejecutar yo).
+> `cyvcf2`/`pysam` no compilan en Windows nativo (requieren htslib). WSL Ubuntu
+> ya tiene `bcftools`/`samtools`/`tabix`/`build-essential` instalados (se usó
+> para la validación cruzada con `bcftools csq`, ver reporte de Track 1).
 
 Activar entorno (PowerShell):
 
@@ -97,9 +95,9 @@ ClinicalTrials.gov, Consensus.
 - [x] **Hallazgo primario**: compuesto heterocigoto en BUB1B
       (chr15:40209701 T>G stop_gained patogénico en ClinVar +
       chr15:40220612 T>G missense novedoso deletéreo) — ver
-      [reports/track1/ihruizh_track1_report.md](reports/track1/ihruizh_track1_report.md)
+      [reports/track1/IHRH_track1_report.md](reports/track1/IHRH_track1_report.md)
 - [x] CSV de submission generado:
-      [submissions/track1/ihruizh_bub1b-compound-het.csv](submissions/track1/ihruizh_bub1b-compound-het.csv)
+      [submissions/track1/IHRH_bub1b-compound-het.csv](submissions/track1/IHRH_bub1b-compound-het.csv)
 - [x] Comparado contra el leaderboard público: ≥20 equipos independientes
       llegaron al mismo par BUB1B, confirmación cruzada fuerte
 - [x] Añadida cita OMIM #257300, script `scripts/check_target_calls.py`
@@ -121,14 +119,18 @@ ClinicalTrials.gov, Consensus.
 - [x] Tercera validación cruzada independiente con `bcftools csq` (WSL,
       Ensembl GRCh38.116) — coincide exactamente con VEP REST y SnpEff en
       los 4 hallazgos (BUB1B×2, LZTR1, MAGI2)
-- [ ] Revisar/editar el reporte y CSV, confirmar username real de HF en los
-      nombres de archivo antes de subir
-- [ ] Crear repo de GitHub (puede quedar privado durante el hackathon) y subir
-      el código
-- [ ] Subir submission en la pestaña "Submit - Track 1" del Space
-- [ ] Track 2: investigar mecanismo de BUB1B-MVA (checkpoint mitótico,
-      inestabilidad cromosómica) y candidatos de reposicionamiento de fármacos
-      (usar ChEMBL/Open Targets ya conectados)
+- [x] Repo de GitHub privado creado y pusheado:
+      [github.com/RuizHernandez/mva-hackathon-2026](https://github.com/RuizHernandez/mva-hackathon-2026)
+- [x] Confirmado username real de HF (`IHRH`) y renombrados todos los archivos
+      de submission/reportes
+- [x] Track 2: mecanismo de BUB1B-MVA caracterizado + candidatos de
+      reposicionamiento (bosutinib, metformina) con evidencia de ChEMBL/Elicit/STRING/Reactome/cBioPortal
+- [ ] Subir submission en las pestañas "Submit - Track 1" y "Submit - Track 2"
+      del Space
+- [ ] Grabar y subir el video pitch de 3 min (guion listo en
+      `Track 2/pitch_video_script.md`)
+- [ ] Hacer público el repo de GitHub (solo después de que cierre el
+      hackathon, 24 oct 2026)
 
 ## Estructura
 

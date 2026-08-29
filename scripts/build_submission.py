@@ -3,7 +3,7 @@
 import csv
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "submissions" / "track1" / "ihruizh_bub1b-compound-het.csv"
+OUT = Path(__file__).resolve().parent.parent / "submissions" / "track1" / "IHRH_bub1b-compound-het.csv"
 
 ROWS = [
     {

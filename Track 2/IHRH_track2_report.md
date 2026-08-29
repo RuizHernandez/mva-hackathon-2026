@@ -1,10 +1,10 @@
 # Track 2 Report — Drug Repurposing — MVA Hackathon 2026
 
-**Team / participant:** ihruizh (verify against actual Hugging Face username before submitting)
+**Team / participant:** IHRH (verify against actual Hugging Face username before submitting)
 **Builds on:** Track 1 primary finding — compound heterozygous BUB1B
 (chr15:40,209,701 T>G, p.Leu737Ter, ClinVar pathogenic + chr15:40,220,612 T>G,
 p.Asn1002Lys, novel deleterious). See
-[../reports/track1/ihruizh_track1_report.md](../reports/track1/ihruizh_track1_report.md).
+[../reports/track1/IHRH_track1_report.md](../reports/track1/IHRH_track1_report.md).
 
 ## 1. Mechanism of disease
 
