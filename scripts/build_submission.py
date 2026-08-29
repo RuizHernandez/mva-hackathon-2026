@@ -7,7 +7,7 @@ OUT = Path(__file__).resolve().parent.parent / "submissions" / "track1" / "IHRH_
 
 ROWS = [
     {
-        "proband_id": "WGS_EX2312012",
+        "proband_id": "PROBAND01",
         "chrom_1": "chr15",
         "pos_1": 40209701,
         "ref_1": "T",
@@ -39,7 +39,7 @@ ROWS = [
         ),
     },
     {
-        "proband_id": "WGS_EX2312012",
+        "proband_id": "PROBAND01",
         "chrom_1": "chr22",
         "pos_1": 20996720,
         "ref_1": "C",
@@ -63,7 +63,7 @@ ROWS = [
         ),
     },
     {
-        "proband_id": "WGS_EX2312012",
+        "proband_id": "PROBAND01",
         "chrom_1": "chr7",
         "pos_1": 78158312,
         "ref_1": "G",
