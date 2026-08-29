@@ -106,10 +106,21 @@ ClinicalTrials.gov, Consensus.
       (verificación redaction-safe de las 2 posiciones, sin exponer el resto
       del VCF) y mención del ángulo complementario de proteostasis/arimoclomol
       en Track 2
-- [ ] Escaneo genómico completo real con bcftools (pendiente: requiere que el
-      usuario corra una vez, de forma interactiva,
-      `sudo apt install -y bcftools samtools tabix` en su WSL Ubuntu — no se
-      puede automatizar sin su contraseña)
+- [x] Escaneo genómico completo real (alternativa a bcftools que sí corre en
+      Windows nativo: SnpEff 4.3t + GRCh38.86 sobre JRE portátil de Temurin,
+      sin necesitar WSL/sudo). Resultado: BUB1B es la única variante de todo
+      el genoma que combina rareza + ClinVar patogénico + coincidencia
+      fenotípica. Además salieron 2 hallazgos secundarios (LZTR1, MAGI2) ya
+      añadidos al CSV.
+- [x] `Makefile` (`make test`/`check`/`all`/`clean`) + suite de tests
+      (`tests/`, 7/7 pasan) + `docs/reproducibility.md` documentando el
+      límite de qué datos nunca salen de la máquina local
+- [x] Visualización 3D de las 2 variantes sobre el modelo AlphaFold de BUBR1
+      (`Track 2/figures/bubr1_variants_structure.png`), referenciada en
+      ambos reportes — ningún competidor revisado hizo esto
+- [x] Tercera validación cruzada independiente con `bcftools csq` (WSL,
+      Ensembl GRCh38.116) — coincide exactamente con VEP REST y SnpEff en
+      los 4 hallazgos (BUB1B×2, LZTR1, MAGI2)
 - [ ] Revisar/editar el reporte y CSV, confirmar username real de HF en los
       nombres de archivo antes de subir
 - [ ] Crear repo de GitHub (puede quedar privado durante el hackathon) y subir

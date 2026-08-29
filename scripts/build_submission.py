@@ -32,7 +32,57 @@ ROWS = [
             "syndrome (autosomal recessive), matching the proband's phenotype "
             "(rhabdomyosarcoma, IUGR/short stature, failure to thrive) and the "
             "reported parental recurrent miscarriages consistent with carrier "
-            "parents."
+            "parents. Confirmed as the only genome-wide HIGH-impact variant that "
+            "is simultaneously rare, ClinVar pathogenic, and phenotype-matching "
+            "(SnpEff GRCh38.86 genome-wide scan, ~1250 HIGH-impact PASS variants "
+            "reviewed)."
+        ),
+    },
+    {
+        "proband_id": "WGS_EX2312012",
+        "chrom_1": "chr22",
+        "pos_1": 20996720,
+        "ref_1": "C",
+        "alt_1": "G",
+        "chrom_2": "",
+        "pos_2": "",
+        "ref_2": "",
+        "alt_2": "",
+        "epcr": 0.15,
+        "finding_type": "secondary",
+        "notes": (
+            "LZTR1 stop-gained, c.2243C>G p.Tyr748Ter (chr22:20996720 C>G, "
+            "GRCh38). Heterozygous, gnomAD AF ~1.4e-6 (ultra-rare), ClinVar has "
+            "pathogenic/likely-pathogenic entries. LZTR1 loss-of-function causes "
+            "LZTR1-related Noonan syndrome (autosomal dominant form) and "
+            "schwannomatosis. Flagged because RASopathies (Noonan/Costello "
+            "syndrome) are a recognized differential for rhabdomyosarcoma "
+            "predisposition, so this is a plausible secondary/modifying finding, "
+            "not proposed as the primary cause given BUB1B is a stronger, "
+            "better-matched, and independently ClinVar-confirmed finding."
+        ),
+    },
+    {
+        "proband_id": "WGS_EX2312012",
+        "chrom_1": "chr7",
+        "pos_1": 78158312,
+        "ref_1": "G",
+        "alt_1": "A",
+        "chrom_2": "",
+        "pos_2": "",
+        "ref_2": "",
+        "alt_2": "",
+        "epcr": 0.08,
+        "finding_type": "secondary",
+        "notes": (
+            "MAGI2 stop-gained, p.Gln180Ter (chr7:78158312 G>A, GRCh38). "
+            "Heterozygous, absent from gnomAD. MAGI2 biallelic loss-of-function "
+            "causes autosomal recessive nephrotic syndrome/FSGS. Only one "
+            "damaged allele was found genome-wide (no second MAGI2 hit), so this "
+            "is not causal on its own, but flagged given the proband's "
+            "nephrocalcinosis/renal involvement in case a second allele (e.g. a "
+            "non-coding or structural variant not captured by this SNV/indel "
+            "scan) is found on follow-up."
         ),
     },
 ]

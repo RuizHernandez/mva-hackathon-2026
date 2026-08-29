@@ -1,0 +1,5 @@
+requests
+biopython
+matplotlib
+numpy
+huggingface_hub

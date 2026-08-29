@@ -43,6 +43,16 @@ compounds that **exploit the specific cellular vulnerability created by a
 weakened mitotic checkpoint and resulting aneuploidy**, should this patient
 (or another MVA1 patient) develop a checkpoint-deficient tumor.
 
+**Structural context** (see figure below): both variant positions were mapped
+onto the full-length AlphaFold model of BUBR1 (UniProt O60566), since no
+single deposited experimental structure covers both residues. Leu737
+(pLDDT 73.6) and Asn1002 (pLDDT 91.1) both sit in the C-terminal
+pseudokinase domain, in reasonably-to-very-confidently predicted regions —
+i.e. not disordered — consistent with Asn1002Lys plausibly disrupting a
+genuine folded domain rather than a flexible loop.
+
+![BUBR1 AlphaFold model with the two proband variant positions highlighted](figures/bubr1_variants_structure.png)
+
 ## 2. Molecular network & cancer genomics context
 
 To cross-check the mechanism description independently of the case-report

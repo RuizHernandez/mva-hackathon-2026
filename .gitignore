@@ -19,3 +19,4 @@ __pycache__/
 # Secretos
 .env
 *.token
+.claude/
