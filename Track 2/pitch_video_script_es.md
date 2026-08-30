@@ -28,13 +28,13 @@ por palabra si no te suena natural a ti.
 
 **[0:50–1:30] Diapositiva 3 — El mecanismo**
 
-> Cuando baja la cantidad de BUBR1, ese checkpoint deja de funcionar bien.
-> Los cromosomas se separan antes de tiempo, la célula termina con el
-> número equivocado de cromosomas, y con el tiempo esa inestabilidad es lo
-> que predispone a estos niños a cánceres como el rabdomiosarcoma. Y esto
-> no lo digo solo por un paper: lo cruzamos con STRING y con Reactome, dos
-> bases de datos independientes, y en las dos BUB1B aparece justo en el
-> centro de este mismo mecanismo.
+> Cuando disminuye la cantidad de BUBR1, ese checkpoint deja de funcionar
+> correctamente. Los cromosomas se separan antes de tiempo; la célula
+> termina con el número equivocado de cromosomas y, con el tiempo, esa
+> inestabilidad predispone a estos niños a cánceres como el
+> rabdomiosarcoma. Además, revisamos esto en STRING y en Reactome, dos
+> bases distintas, y en ambas BUB1B queda justo en el centro de esta misma
+> vía.
 
 **[1:30–2:20] Diapositiva 4 — Los candidatos de reposicionamiento**
 
