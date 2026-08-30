@@ -23,8 +23,8 @@ PDB_PATH = Path(__file__).resolve().parent.parent / "data" / "AF-O60566-F1-model
 OUT_PATH = Path(__file__).resolve().parent.parent / "Track 2" / "figures" / "bubr1_variants_structure.png"
 
 VARIANTS = [
-    {"resnum": 737, "label": "p.Leu737Ter\n(stop-gained, ClinVar pathogenic)"},
-    {"resnum": 1002, "label": "p.Asn1002Lys\n(missense, novel, SIFT/PolyPhen deleterious)"},
+    {"resnum": 737, "marker": "1", "label": "1 — p.Leu737Ter (stop-gained, ClinVar pathogenic)"},
+    {"resnum": 1002, "marker": "2", "label": "2 — p.Asn1002Lys (missense, novel, SIFT/PolyPhen deleterious)"},
 ]
 
 
@@ -57,8 +57,8 @@ def main():
         if len(idx) == 0:
             continue
         x, y, z = coords[idx[0]]
-        ax.scatter([x], [y], [z], color="red", s=140, edgecolor="black", linewidth=1.2, zorder=10)
-        ax.text(x, y, z, "  " + v["label"], fontsize=8, color="black")
+        ax.scatter([x], [y], [z], color="red", s=160, edgecolor="black", linewidth=1.2, zorder=10)
+        ax.text(x, y, z, "  " + v["marker"], fontsize=13, fontweight="bold", color="black", zorder=11)
 
     cbar = fig.colorbar(sc, ax=ax, shrink=0.6, pad=0.1)
     cbar.set_label("AlphaFold pLDDT (per-residue confidence)")
@@ -75,6 +75,9 @@ def main():
     ax.set_xlabel("X (Å)")
     ax.set_ylabel("Y (Å)")
     ax.set_zlabel("Z (Å)")
+
+    legend_text = "\n".join(v["label"] for v in VARIANTS)
+    fig.text(0.02, 0.02, legend_text, fontsize=9, va="bottom", ha="left")
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT_PATH, dpi=200, bbox_inches="tight")
