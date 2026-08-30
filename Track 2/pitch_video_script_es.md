@@ -40,7 +40,7 @@ por palabra si no te suena natural a ti.
 
 > Entonces para el Track 2 la pregunta no era cómo reparamos el checkpoint,
 > sino algo distinto: si esta célula ya tiene el checkpoint débil, ¿qué
-> medicamento aprobado se aprovecha de eso? Encontramos dos. La bosutinib,
+> medicamento aprobado se aprovecha de eso? Encontramos dos. El bosutinib,
 > que se usa para leucemia, ya se demostró en un estudio que es tóxica
 > específicamente para células con el checkpoint defectuoso — que es justo
 > el caso aquí. Y la metformina, que probablemente conocen porque se usa
@@ -56,9 +56,9 @@ por palabra si no te suena natural a ti.
 
 **[2:20–2:35] Diapositiva 5 — Confirmación estructural**
 
-> Y no nos quedamos en la teoría. Buscamos si existía prueba de que la
+> Y no nos quedamos en la teoría. Buscamos si existía evidencia de que el
 > bosutinib realmente se une a su blanco, y sí la hay: una estructura
-> resuelta por cristalografía, la PDB 4MXO, de bosutinib pegada a la
+> resuelta por cristalografía, con PDB 4MXO, de bosutinib unido a la
 > quinasa Src humana. Es el mismo mecanismo que describió Schukken en
 > 2020. Hay otra estructura que muestra que también se une a Abl. Esto no
 > es una predicción de computadora — es algo que ya se comprobó
