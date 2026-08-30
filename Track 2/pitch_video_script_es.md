@@ -75,9 +75,9 @@ por palabra si no te suena natural a ti.
 **[2:50–3:00] Diapositiva 7 — Cierre**
 
 > Estas son hipótesis, no tratamientos comprobados. El siguiente paso
-> sería probarlas en células del propio niño. Pero para una familia que
-> hace poco no tenía ni un diagnóstico, creo que esto ya es un punto de
-> partida real.
+> sería probarlas en células del propio paciente. Pero para una familia
+> que hace poco ni siquiera tenía un diagnóstico, consideramos que esto ya
+> es un punto de partida real.
 
 ---
 
