@@ -128,8 +128,10 @@ ClinicalTrials.gov, Consensus.
 - [x] **Track 1 subido y evaluado**: Rank points 100.0/100, F-max 1.000,
       "Full match at rank 1" (proband_id correcto: `PROBAND01`, no el nombre
       de muestra del VCF — lección aprendida, corregido y documentado)
-- [ ] Subir submission en "Submit - Track 2" del Space (pendiente: requiere
-      video pitch)
+- [x] Video pitch grabado, subtitulado y publicado como "No listado":
+      https://youtu.be/EWLGAp884V4
+- [ ] Subir submission en "Submit - Track 2" del Space (reporte + repo +
+      link del video)
 - [ ] Grabar y subir el video pitch de 3 min (guion listo en
       `Track 2/pitch_video_script.md`)
 - [ ] Hacer público el repo de GitHub (solo después de que cierre el
