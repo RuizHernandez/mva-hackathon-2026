@@ -20,20 +20,15 @@ one hypomorphic allele** — exactly the genotype found here (a stop-gained
 null allele plus a damaging-but-not-null missense allele) — rather than two
 fully null alleles, which is thought to be poorly tolerated.
 
-**Causal chain:**
+**Causal chain** (Figure 1A): BUB1B compound heterozygous LOF → reduced
+BUBR1 dosage at the kinetochore → weakened spindle-assembly checkpoint →
+premature chromatid separation (cellular hallmark, PCS) → chromosome
+mis-segregation → constitutional mosaic aneuploidy (MVA) → chromosomal
+instability (CIN) in dividing tissues → predisposition to childhood
+malignancy (rhabdomyosarcoma, Wilms tumor, leukemia — Hanks et al. 2006,
+PMID 16182441).
 
-```
-BUB1B compound heterozygous LOF
-        → reduced BUBR1 dosage at the kinetochore
-        → weakened spindle-assembly checkpoint
-        → premature chromatid separation (cellular hallmark, PCS)
-        → chromosome mis-segregation
-        → constitutional mosaic aneuploidy (MVA)
-        → chromosomal instability (CIN) in dividing tissues
-        → predisposition to childhood malignancy
-          (rhabdomyosarcoma, Wilms tumor, leukemia — Hanks et al. 2006,
-          PMID 16182441)
-```
+![Figure 1A. Mechanistic pathway from BUB1B compound-heterozygous loss-of-function to childhood cancer risk.](figures/bub1b_pathway_biorender.png)
 
 This is classified as **loss-of-function (recessive)**, not gain-of-function.
 The mechanism is a checkpoint/genome-maintenance defect rather than an
@@ -51,7 +46,16 @@ pseudokinase domain, in reasonably-to-very-confidently predicted regions —
 i.e. not disordered — consistent with Asn1002Lys plausibly disrupting a
 genuine folded domain rather than a flexible loop.
 
-![BUBR1 AlphaFold model with the two proband variant positions highlighted](figures/bubr1_variants_structure.png)
+![Figure 1B. AlphaFold model of BUBR1 with the two proband variant positions highlighted.](figures/bubr1_variants_structure.png)
+
+**Figure 1. BUB1B compound-heterozygous loss-of-function.** **(A)**
+Mechanistic pathway from biallelic *BUB1B* loss-of-function to childhood
+cancer risk, via reduced BUBR1 dosage and a weakened spindle-assembly
+checkpoint. Created in BioRender. **(B)** Both proband variants
+(p.Leu737Ter, ClinVar pathogenic; p.Asn1002Lys, novel,
+SIFT/PolyPhen-deleterious) mapped onto the AlphaFold model of BUBR1
+(UniProt O60566), colored by pLDDT confidence. BUB1B's centrality in this
+pathway is independently confirmed by STRING and Reactome.
 
 ## 2. Molecular network & cancer genomics context
 
