@@ -44,8 +44,9 @@ por palabra si no te suena natural a ti.
 > que se usa para leucemia, ya se demostró en un estudio que es tóxica
 > específicamente para células con el checkpoint defectuoso — que es justo
 > el caso aquí. Y la metformina, que probablemente conocen porque se usa
-> para diabetes, en otro estudio mostró que estresa selectivamente a las
-> células aneuploides a través de AMPK. Los dos son medicamentos baratos,
+> para diabetes, en un estudio de 2011 publicado en Cell, de Tang y
+> colaboradores, mostró que estresa selectivamente a las células
+> aneuploides a través de AMPK. Los dos son medicamentos baratos,
 > genéricos, con años de uso en humanos, lo cual importa mucho cuando
 > hablamos de una enfermedad tan rara que nadie va a desarrollar un
 > fármaco nuevo solo para ella. Y algo que decidimos descartar a propósito:
