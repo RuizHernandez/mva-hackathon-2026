@@ -1,6 +1,6 @@
 # Track 2 Report — Drug Repurposing — MVA Hackathon 2026
 
-**Team / participant:** IHRH (verify against actual Hugging Face username before submitting)
+**Team / participant:** IHRH
 **Builds on:** Track 1 primary finding — compound heterozygous BUB1B
 (chr15:40,209,701 T>G, p.Leu737Ter, ClinVar pathogenic + chr15:40,220,612 T>G,
 p.Asn1002Lys, novel deleterious). See
@@ -260,10 +260,12 @@ is not specific to this one BUB1B genotype:
 *Literature identified via the Elicit academic search API; drug regulatory
 status and mechanism data from ChEMBL.*
 
-## 8. Still needed before submission
+## 8. Submission status
 
-- [ ] GitHub repo URL (public required after hackathon ends)
-- [ ] 3-minute pitch video (YouTube/Vimeo link)
-- [ ] Confirm actual Hugging Face username in filename
-- [ ] Optional: cell-line/fibroblast validation plan as a "future work"
-      section if time allows before judging
+- [x] GitHub repo: https://github.com/RuizHernandez/mva-hackathon-2026
+      (private during the Hackathon; will be made public once it closes)
+- [x] Pitch video (3:46, Spanish narration, English subtitles available):
+      https://youtu.be/EWLGAp884V4
+- [x] Hugging Face username confirmed (IHRH)
+- [ ] Optional future work: cell-line/fibroblast validation of either
+      candidate in BUB1B-deficient patient-derived cells
