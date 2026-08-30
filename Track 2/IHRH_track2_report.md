@@ -274,3 +274,62 @@ https://youtu.be/EWLGAp884V4
 
 Future work: validation of either candidate in BUB1B-deficient
 patient-derived cells (e.g., fibroblasts).
+
+### Video transcript (English)
+
+The pitch was recorded in Spanish; the English text below is provided
+directly here for accessibility and reference, in addition to the
+closed captions on YouTube.
+
+> Hi, I'm Dr. Itan H. Ruiz Hernandez. This project starts with a real
+> case: a child with Mosaic Variegated Aneuploidy, an ultra-rare disease
+> with no treatment today. In Track 1, we reached a genetic diagnosis
+> that's very likely the cause. This part, Track 2, is about what we do
+> with that diagnosis. We found two already-approved drugs worth trying
+> — not because we picked them at random, but because we understood
+> exactly how this disease damages the cell.
+>
+> The child has both copies of the BUB1B gene damaged. One variant is
+> already registered in ClinVar as pathogenic. The other is new, not
+> reported yet, but SIFT and PolyPhen predict it as damaging. BUB1B
+> makes the BUBR1 protein, a key piece of the mitotic spindle checkpoint
+> — basically the system that checks every chromosome is properly
+> connected before the cell divides.
+>
+> When the amount of BUBR1 drops, that checkpoint stops working
+> properly. Chromosomes separate too early; the cell ends up with the
+> wrong number of chromosomes, and over time that instability
+> predisposes these children to cancers like rhabdomyosarcoma. We also
+> checked this in STRING and in Reactome, two separate databases, and in
+> both, BUB1B sits right at the center of this same pathway.
+>
+> So for Track 2 the question wasn't how do we fix the checkpoint, but
+> something different: if this cell already has a weak checkpoint, what
+> approved drug takes advantage of that? We found two. Bosutinib, used
+> for leukemia, was already shown in a study to be specifically toxic to
+> cells with a defective checkpoint — exactly the case here. And
+> metformin, which you probably know because it's used for diabetes, in
+> a 2011 study published in Cell by Tang and colleagues, showed that it
+> selectively stresses aneuploid cells through AMPK. Both are cheap,
+> generic drugs with years of use in humans, which matters a lot for a
+> disease so rare that nobody is going to develop a new drug just for
+> it. And something we deliberately ruled out: checkpoint inhibitors
+> being developed for oncology. Those go in the opposite direction,
+> because here the checkpoint is already weak.
+>
+> And we didn't stop at theory. We checked whether bosutinib actually
+> binds its target, and it does: a crystal structure, PDB 4MXO, of
+> bosutinib bound to human Src kinase. It's the same mechanism Schukken
+> described in 2020. Another structure shows it also binds Abl. This
+> isn't a computer prediction — it's already been proven experimentally.
+>
+> And this doesn't apply only to this mutation. The other two genes that
+> cause MVA reach the same mechanism, and the same vulnerability has
+> already been seen in glioblastoma and prostate cancer. The path we
+> followed — phenotype, mechanism, approved drugs — can be repeated for
+> the next undiagnosed case.
+>
+> These are hypotheses, not proven treatments. The next step would be
+> testing them in the patient's own cells. But for a family that
+> recently had no diagnosis at all, we believe this is already a real
+> starting point.
