@@ -55,7 +55,18 @@ stage/visual directions, not spoken.
 > inhibitors already in cancer development — because in this patient they'd
 > push in exactly the wrong direction.
 
-**[2:20–2:50] Why this matters beyond one child**
+**[2:20–2:35] Structural confirmation (new slide 5)**
+[Visual: PDB 4MXO — bosutinib bound to Src kinase]
+
+> We didn't stop at a mechanistic argument — we checked whether bosutinib
+> actually engages its target. PDB entry 4MXO is a solved co-crystal
+> structure of bosutinib bound to human Src kinase, the exact mechanism
+> Schukken et al. showed to be selectively toxic in checkpoint-deficient
+> cells. A separate solved structure confirms it also binds Abl kinase.
+> That's stronger evidence than a docking prediction — it's a structure
+> someone has actually solved.
+
+**[2:35–2:50] Why this matters beyond one child**
 [Visual: "1 child → 3 MVA genes → CIN+ tumors broadly"]
 
 > This mechanism isn't unique to this one mutation. It generalizes to the

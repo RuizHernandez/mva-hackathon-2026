@@ -53,7 +53,18 @@ Vista del Moderador. Los tiempos son guía, ajústalos a tu ritmo natural.
 > medicamentos — los inhibidores de checkpoint ya en desarrollo oncológico —
 > porque en este paciente empujarían justo en la dirección equivocada.
 
-**[2:20–2:50] Diapositiva 5 — Por qué importa más allá de este niño**
+**[2:20–2:35] Diapositiva 5 — Confirmación estructural (nueva)**
+
+> No nos quedamos solo en el argumento mecanístico — verificamos si bosutinib
+> realmente se une a su blanco. La entrada PDB 4MXO es una estructura
+> resuelta por cristalografía de bosutinib unido a la quinasa Src humana —
+> exactamente el mecanismo que Schukken et al. mostraron como selectivamente
+> tóxico en células con checkpoint defectuoso. Otra estructura resuelta
+> confirma que también se une a la quinasa Abl. Eso es más fuerte que una
+> predicción de docking — es una estructura que alguien ya resolvió
+> experimentalmente.
+
+**[2:35–2:50] Diapositiva 6 — Por qué importa más allá de este niño**
 
 > Este mecanismo no es exclusivo de esta mutación. Se generaliza a los otros
 > dos genes conocidos de MVA, y a tumores con inestabilidad cromosómica en
