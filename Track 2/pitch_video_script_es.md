@@ -9,7 +9,7 @@ por palabra si no te suena natural a ti.
 
 **[0:00–0:20] Diapositiva 1 — Título**
 
-> Este proyecto parte de un caso real: un niño con Aneuploidía Variegada
+> Hola, soy el Dr. Itan H. Ruiz Hernández. Este proyecto parte de un caso real: un niño con Aneuploidía Variegada
 > Mosaico, una enfermedad ultra-rara que hoy no tiene tratamiento. En el
 > Track 1 llegamos a un diagnóstico genético que muy probablemente es la
 > causa. Esta parte, el Track 2, es sobre qué hacemos con ese diagnóstico.
