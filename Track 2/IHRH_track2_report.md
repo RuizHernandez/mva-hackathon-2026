@@ -264,12 +264,13 @@ is not specific to this one BUB1B genotype:
 *Literature identified via the Elicit academic search API; drug regulatory
 status and mechanism data from ChEMBL.*
 
-## 8. Submission status
+## 8. Availability
 
-- [x] GitHub repo: https://github.com/RuizHernandez/mva-hackathon-2026
-      (private during the Hackathon; will be made public once it closes)
-- [x] Pitch video (3:46, Spanish narration, English subtitles available):
-      https://youtu.be/EWLGAp884V4
-- [x] Hugging Face username confirmed (IHRH)
-- [ ] Optional future work: cell-line/fibroblast validation of either
-      candidate in BUB1B-deficient patient-derived cells
+Code and documentation: https://github.com/RuizHernandez/mva-hackathon-2026
+(private during the Hackathon; made public once it concludes).
+
+Pitch video (3:46, Spanish narration, English subtitles available):
+https://youtu.be/EWLGAp884V4
+
+Future work: validation of either candidate in BUB1B-deficient
+patient-derived cells (e.g., fibroblasts).
