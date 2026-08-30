@@ -78,71 +78,47 @@ Activar entorno (PowerShell):
 
 ## Herramientas de investigación disponibles
 
-Conectadas en esta sesión (vía MCP): Open Targets (asociación gen-enfermedad),
-ChEMBL (mecanismo de fármacos/dianas — clave para Track 2), PubMed, bioRxiv,
-ClinicalTrials.gov, Consensus.
+Conectadas vía MCP: Open Targets (asociación gen-enfermedad), ChEMBL
+(mecanismo/aprobación de fármacos), PubMed, bioRxiv, ClinicalTrials.gov,
+Consensus, Elicit (búsqueda semántica de literatura). Consultadas por API
+pública directa: STRING (red de interacción proteica), Reactome (vías),
+cBioPortal (frecuencia de mutaciones somáticas), RCSB PDB / AlphaFold DB
+(estructura 3D de proteínas).
 
-## Estado / Próximos pasos
+## Estado actual
 
-- [x] Explorar reglas del hackathon y formato de submission
-- [x] Preparar entorno y estructura del proyecto
-- [x] Login de Hugging Face y acceso al dataset concedido
-- [x] Descargar README, fenotipo clínico, VCF + índice (FASTQ pendientes, no
-      necesarios para Track 1 salvo que se quiera re-llamar variantes)
-- [x] Caso confirmado como singleton (un solo proband: `WGS_EX2312012`, sin trío)
-- [x] Pipeline de filtrado/priorización dirigido por fenotipo (panel de 13 genes
-      candidatos de MVA/inestabilidad cromosómica) + anotación vía Ensembl VEP REST
-- [x] **Hallazgo primario**: compuesto heterocigoto en BUB1B
-      (chr15:40209701 T>G stop_gained patogénico en ClinVar +
-      chr15:40220612 T>G missense novedoso deletéreo) — ver
-      [reports/track1/IHRH_track1_report.md](reports/track1/IHRH_track1_report.md)
-- [x] CSV de submission generado:
-      [submissions/track1/IHRH_bub1b-compound-het.csv](submissions/track1/IHRH_bub1b-compound-het.csv)
-- [x] Comparado contra el leaderboard público: ≥20 equipos independientes
-      llegaron al mismo par BUB1B, confirmación cruzada fuerte
-- [x] Añadida cita OMIM #257300, script `scripts/check_target_calls.py`
-      (verificación redaction-safe de las 2 posiciones, sin exponer el resto
-      del VCF) y mención del ángulo complementario de proteostasis/arimoclomol
-      en Track 2
-- [x] Escaneo genómico completo real (alternativa a bcftools que sí corre en
-      Windows nativo: SnpEff 4.3t + GRCh38.86 sobre JRE portátil de Temurin,
-      sin necesitar WSL/sudo). Resultado: BUB1B es la única variante de todo
-      el genoma que combina rareza + ClinVar patogénico + coincidencia
-      fenotípica. Además salieron 2 hallazgos secundarios (LZTR1, MAGI2) ya
-      añadidos al CSV.
-- [x] `Makefile` (`make test`/`check`/`all`/`clean`) + suite de tests
-      (`tests/`, 7/7 pasan) + `docs/reproducibility.md` documentando el
-      límite de qué datos nunca salen de la máquina local
-- [x] Visualización 3D de las 2 variantes sobre el modelo AlphaFold de BUBR1
-      (`Track 2/figures/bubr1_variants_structure.png`), referenciada en
-      ambos reportes — ningún competidor revisado hizo esto
-- [x] Tercera validación cruzada independiente con `bcftools csq` (WSL,
-      Ensembl GRCh38.116) — coincide exactamente con VEP REST y SnpEff en
-      los 4 hallazgos (BUB1B×2, LZTR1, MAGI2)
-- [x] Repo de GitHub privado creado y pusheado:
-      [github.com/RuizHernandez/mva-hackathon-2026](https://github.com/RuizHernandez/mva-hackathon-2026)
-- [x] Confirmado username real de HF (`IHRH`) y renombrados todos los archivos
-      de submission/reportes
-- [x] Track 2: mecanismo de BUB1B-MVA caracterizado + candidatos de
-      reposicionamiento (bosutinib, metformina) con evidencia de ChEMBL/Elicit/STRING/Reactome/cBioPortal
-- [x] **Track 1 subido y evaluado**: Rank points 100.0/100, F-max 1.000,
-      "Full match at rank 1" (proband_id correcto: `PROBAND01`, no el nombre
-      de muestra del VCF — lección aprendida, corregido y documentado)
-- [x] Video pitch grabado, subtitulado y publicado como "No listado":
-      https://youtu.be/EWLGAp884V4
-- [ ] Subir submission en "Submit - Track 2" del Space (reporte + repo +
-      link del video)
-- [ ] Grabar y subir el video pitch de 3 min (guion listo en
-      `Track 2/pitch_video_script.md`)
+**Track 1 — enviado y evaluado.** Hallazgo: compuesto heterocigoto en BUB1B
+(chr15:40209701 T>G stop-gained, ClinVar pathogenic + chr15:40220612 T>G
+missense novedoso deletéreo), confirmado por tres motores independientes
+(Ensembl VEP REST, SnpEff genoma completo, bcftools csq) y por ≥20 equipos
+externos en el leaderboard. Score: **100.0/100 rank points, F-max 1.000,
+"Full match at rank 1"**. Ver
+[reports/track1/IHRH_track1_report.md](reports/track1/IHRH_track1_report.md)
+y [submissions/track1/IHRH_bub1b-compound-het.csv](submissions/track1/IHRH_bub1b-compound-het.csv).
+
+**Track 2 — material completo, falta confirmar envío del formulario.**
+Mecanismo caracterizado (STRING/Reactome/cBioPortal) + dos candidatos de
+reposicionamiento (bosutinib, metformina) respaldados por literatura y por
+una estructura cristalográfica real (PDB 4MXO). Reporte, methods
+description, video pitch (3:46, español, subtítulos en inglés,
+https://youtu.be/EWLGAp884V4) y transcripción ya en
+[Track 2/IHRH_track2_report.md](Track%202/IHRH_track2_report.md).
+
+**Pendiente:**
+- [ ] Confirmar que el formulario "Submit - Track 2" del Space ya se envió
 - [ ] Hacer público el repo de GitHub (solo después de que cierre el
       hackathon, 24 oct 2026)
 
 ## Estructura
 
 ```
-data/          # datos crudos descargados (gitignored)
-scripts/       # pipeline de descarga, filtrado, anotación de variantes
-notebooks/     # exploración
-reports/       # borradores de reportes de metodología (track1/track2)
-submissions/   # CSVs y archivos finales a subir
+data/            # datos crudos descargados (gitignored) + refs (bgzip FASTA/GFF3)
+docs/            # documentación de reproducibilidad (qué datos nunca salen de local)
+scripts/         # pipeline de filtrado, anotación, visualización estructural
+tests/           # suite de tests (esquema del CSV, checker redaction-safe, guardia anti-datos-controlados)
+notebooks/       # exploración
+reports/track1/  # reporte + methods description de Track 1
+submissions/     # CSVs finales enviados
+Track 2/         # reporte, methods description, figuras, pitch deck y guiones de Track 2
+Makefile         # make test / check / all / clean
 ```
