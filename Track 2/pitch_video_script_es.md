@@ -1,85 +1,82 @@
 # Guion del Video Pitch (~3 minutos) — Versión en Español
 
 Narra esto en español mientras compartes pantalla con `pitch_deck.pptx` en
-Vista del Moderador. Los tiempos son guía, ajústalos a tu ritmo natural.
+Vista del Moderador. Los tiempos son guía, ajústalos a tu ritmo natural. Es
+un punto de partida — cámbialo con tus propias palabras, no lo leas palabra
+por palabra si no te suena natural a ti.
 
 ---
 
 **[0:00–0:20] Diapositiva 1 — Título**
 
-> Este proyecto empieza con un niño real que vive con Aneuploidía Variegada
-> Mosaico — una enfermedad ultra-rara sin tratamiento aprobado. En el Track 1
-> encontramos un diagnóstico genético probablemente causal. Esta propuesta es
-> sobre qué podemos hacer con ese diagnóstico: dos medicamentos ya aprobados
-> que valdría la pena investigar, elegidos por cómo exactamente esta
-> enfermedad rompe una célula — no por adivinar.
+> Este proyecto parte de un caso real: un niño con Aneuploidía Variegada
+> Mosaico, una enfermedad ultra-rara que hoy no tiene tratamiento. En el
+> Track 1 llegamos a un diagnóstico genético que muy probablemente es la
+> causa. Esta parte, el Track 2, es sobre qué hacemos con ese diagnóstico.
+> Encontramos dos medicamentos ya aprobados que valdría la pena probar, y no
+> porque se nos ocurrió al azar, sino porque entendimos cómo exactamente
+> esta enfermedad daña la célula.
 
 **[0:20–0:50] Diapositiva 2 — El diagnóstico**
 
-> El paciente tiene dos copias dañadas del gen BUB1B — una es una variante
-> patogénica conocida, ya registrada en ClinVar, y la otra es una variante
-> missense nueva, predicha como dañina por SIFT y PolyPhen. BUB1B produce la
-> proteína BUBR1, una pieza central del checkpoint del huso mitótico — el
-> sistema de control de calidad que evita que una célula se divida hasta que
-> cada cromosoma esté correctamente conectado.
+> El niño tiene dañadas las dos copias del gen BUB1B. Una variante ya está
+> registrada en ClinVar como patogénica. La otra es nueva, no está
+> reportada todavía, pero SIFT y PolyPhen la predicen como dañina. BUB1B
+> fabrica la proteína BUBR1, que es pieza clave del checkpoint del huso
+> mitótico: básicamente el sistema que revisa que todos los cromosomas
+> estén bien conectados antes de que la célula se divida.
 
 **[0:50–1:30] Diapositiva 3 — El mecanismo**
 
-> Cuando BUBR1 baja de cierto nivel funcional, las células ya no pueden
-> sostener ese checkpoint de forma confiable. Los cromosomas se separan
-> demasiado pronto, las células terminan con el número equivocado de
-> cromosomas, y esa inestabilidad — repetida a lo largo de toda una vida de
-> divisiones celulares — es lo que predispone a estos niños a cánceres como
-> el rabdomiosarcoma. Esto no es solo la afirmación de un paper: cruzamos la
-> red de interacciones de STRING y las vías de Reactome, y BUB1B aparece,
-> de forma independiente en ambas bases de datos, justo en el centro de este
-> módulo del checkpoint.
+> Cuando baja la cantidad de BUBR1, ese checkpoint deja de funcionar bien.
+> Los cromosomas se separan antes de tiempo, la célula termina con el
+> número equivocado de cromosomas, y con el tiempo esa inestabilidad es lo
+> que predispone a estos niños a cánceres como el rabdomiosarcoma. Y esto
+> no lo digo solo por un paper: lo cruzamos con STRING y con Reactome, dos
+> bases de datos independientes, y en las dos BUB1B aparece justo en el
+> centro de este mismo mecanismo.
 
 **[1:30–2:20] Diapositiva 4 — Los candidatos de reposicionamiento**
 
-> Entonces la pregunta para el Track 2 no es "¿cómo arreglamos el
-> checkpoint?" — es "dado que esta célula ya tiene un checkpoint débil, ¿qué
-> medicamento ya aprobado explota esa debilidad?" Encontramos dos candidatos,
-> cada uno respaldado por un estudio mecanístico específico, no una
-> corazonada. La bosutinib, un medicamento aprobado para leucemia, demostró
-> en un estudio independiente ser selectivamente tóxica para células con un
-> checkpoint mitótico defectuoso — exactamente la biología de esta célula.
-> La metformina, uno de los medicamentos más usados y más seguros del mundo,
-> demostró en otro estudio estresar selectivamente a las células aneuploides
-> a través de la vía de AMPK. Ambos son baratos, genéricos, y ya están
-> profundamente caracterizados en humanos — algo enormemente importante para
-> una enfermedad ultra-rara sin ningún desarrollo farmacéutico dedicado. Y
-> algo igual de importante: descartamos explícitamente toda una clase de
-> medicamentos — los inhibidores de checkpoint ya en desarrollo oncológico —
-> porque en este paciente empujarían justo en la dirección equivocada.
+> Entonces para el Track 2 la pregunta no era cómo reparamos el checkpoint,
+> sino algo distinto: si esta célula ya tiene el checkpoint débil, ¿qué
+> medicamento aprobado se aprovecha de eso? Encontramos dos. La bosutinib,
+> que se usa para leucemia, ya se demostró en un estudio que es tóxica
+> específicamente para células con el checkpoint defectuoso — que es justo
+> el caso aquí. Y la metformina, que probablemente conocen porque se usa
+> para diabetes, en otro estudio mostró que estresa selectivamente a las
+> células aneuploides a través de AMPK. Los dos son medicamentos baratos,
+> genéricos, con años de uso en humanos, lo cual importa mucho cuando
+> hablamos de una enfermedad tan rara que nadie va a desarrollar un
+> fármaco nuevo solo para ella. Y algo que decidimos descartar a propósito:
+> los inhibidores de checkpoint que se están desarrollando para oncología.
+> Esos van en la dirección contraria, porque aquí el checkpoint ya está
+> débil de por sí.
 
-**[2:20–2:35] Diapositiva 5 — Confirmación estructural (nueva)**
+**[2:20–2:35] Diapositiva 5 — Confirmación estructural**
 
-> No nos quedamos solo en el argumento mecanístico — verificamos si bosutinib
-> realmente se une a su blanco. La entrada PDB 4MXO es una estructura
-> resuelta por cristalografía de bosutinib unido a la quinasa Src humana —
-> exactamente el mecanismo que Schukken et al. mostraron como selectivamente
-> tóxico en células con checkpoint defectuoso. Otra estructura resuelta
-> confirma que también se une a la quinasa Abl. Eso es más fuerte que una
-> predicción de docking — es una estructura que alguien ya resolvió
+> Y no nos quedamos en la teoría. Buscamos si existía prueba de que la
+> bosutinib realmente se une a su blanco, y sí la hay: una estructura
+> resuelta por cristalografía, la PDB 4MXO, de bosutinib pegada a la
+> quinasa Src humana. Es el mismo mecanismo que describió Schukken en
+> 2020. Hay otra estructura que muestra que también se une a Abl. Esto no
+> es una predicción de computadora — es algo que ya se comprobó
 > experimentalmente.
 
 **[2:35–2:50] Diapositiva 6 — Por qué importa más allá de este niño**
 
-> Este mecanismo no es exclusivo de esta mutación. Se generaliza a los otros
-> dos genes conocidos de MVA, y a tumores con inestabilidad cromosómica en
-> general — la misma vulnerabilidad ha aparecido de forma independiente en
-> investigación de glioblastoma y cáncer de próstata. El proceso que
-> usamos — de fenotipo, a mecanismo, a medicamentos aprobados encontrados en
-> la literatura — es reutilizable para el próximo caso sin diagnosticar, no
-> solo para este.
+> Y esto no aplica solo a esta mutación. Los otros dos genes que causan
+> MVA llegan al mismo mecanismo, y la misma vulnerabilidad ya se ha visto
+> en glioblastoma y en cáncer de próstata. El camino que seguimos —de
+> fenotipo, a mecanismo, a fármacos ya aprobados— se puede repetir con el
+> siguiente caso sin diagnosticar.
 
-**[2:50–3:00] Diapositiva 6 — Cierre**
+**[2:50–3:00] Diapositiva 7 — Cierre**
 
-> Estas son hipótesis para investigar, no tratamientos comprobados —
-> validarlas en las propias células de este niño es el siguiente paso obvio.
-> Pero para una familia que hace seis semanas no tenía respuesta genética,
-> creemos que este es un punto de partida real y comprobable.
+> Estas son hipótesis, no tratamientos comprobados. El siguiente paso
+> sería probarlas en células del propio niño. Pero para una familia que
+> hace poco no tenía ni un diagnóstico, creo que esto ya es un punto de
+> partida real.
 
 ---
 
@@ -93,3 +90,6 @@ Vista del Moderador. Los tiempos son guía, ajústalos a tu ritmo natural.
 - Nombres propios que puedes decir en inglés tal cual (no tienen traducción
   natural): BUB1B, BUBR1, ClinVar, SIFT, PolyPhen, bosutinib, metformina,
   AMPK, STRING, Reactome, glioblastoma.
+- Este guion es una base, no un libreto para memorizar. Cámbialo con tus
+  propias muletillas y forma de hablar — vas a sonar más creíble diciéndolo
+  a tu manera que leyéndolo tal cual.
