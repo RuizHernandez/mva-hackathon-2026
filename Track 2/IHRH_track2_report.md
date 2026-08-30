@@ -121,6 +121,15 @@ cellular biology.
   already-approved compound worth testing in BUB1B-deficient patient cells
   or in any tumor arising in this child, rather than proposing an untested
   chemical class from scratch.
+- **Structural confirmation of target engagement:** rather than a
+  computational docking prediction, we checked the PDB directly and found
+  an experimentally solved co-crystal structure confirming bosutinib
+  physically binds its proposed target — PDB 4MXO (human Src kinase bound
+  to bosutinib) and PDB 3UE4 (bosutinib bound to Abl kinase). This is
+  stronger evidence of target compatibility than docking would be, since
+  it is a solved structure rather than a prediction.
+
+  ![Bosutinib bound to human Src kinase (PDB 4MXO)](figures/bosutinib_src_cocrystal.png)
 
 ### Candidate 2 — Metformin (AMPK activator)
 
@@ -242,6 +251,11 @@ is not specific to this one BUB1B genotype:
    Discov.* 2012. PMID: 23154965.
 9. Bhatia S, Khanna KK, Duijf PHG. Targeting chromosomal instability and
    aneuploidy in cancer. *Trends Pharmacol Sci.* 2024. PMID: 38355324.
+10. RCSB PDB 4MXO — Human Src kinase bound to kinase inhibitor bosutinib.
+    https://www.rcsb.org/structure/4MXO
+11. RCSB PDB 3UE4 — Structural and spectroscopic analysis of the kinase
+    inhibitor bosutinib binding to the Abl tyrosine kinase.
+    https://www.rcsb.org/structure/3UE4
 
 *Literature identified via the Elicit academic search API; drug regulatory
 status and mechanism data from ChEMBL.*
