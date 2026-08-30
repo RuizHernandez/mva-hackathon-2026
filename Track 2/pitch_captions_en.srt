@@ -1,179 +1,272 @@
 1
-00:00:00,000 --> 00:00:04,000
-This project starts with a real child
+00:00:00,000 --> 00:00:01,975
+Hi, I'm Dr. Itan H. Ruiz Hernandez.
 
 2
-00:00:04,000 --> 00:00:08,500
-living with Mosaic Variegated Aneuploidy —
+00:00:01,975 --> 00:00:04,063
+This project starts with a real case:
 
 3
-00:00:08,500 --> 00:00:12,000
-an ultra-rare disease with no approved treatment.
+00:00:04,063 --> 00:00:06,434
+a child with Mosaic Variegated Aneuploidy,
 
 4
-00:00:12,000 --> 00:00:15,500
-In Track 1, we found a likely causal genetic diagnosis.
+00:00:06,434 --> 00:00:09,030
+an ultra-rare disease with no treatment today.
 
 5
-00:00:15,500 --> 00:00:20,000
-This pitch is about two already-approved drugs worth investigating.
+00:00:09,030 --> 00:00:11,400
+In Track 1, we reached a genetic diagnosis
 
 6
-00:00:20,000 --> 00:00:24,500
-The proband carries two damaged copies of BUB1B —
+00:00:11,400 --> 00:00:13,037
+that's very likely the cause.
 
 7
-00:00:24,500 --> 00:00:28,500
-one is a known pathogenic stop-gained variant, already in ClinVar,
+00:00:13,037 --> 00:00:16,423
+This part, Track 2, is about what we do with that diagnosis.
 
 8
-00:00:28,500 --> 00:00:33,000
-the other a novel missense variant predicted deleterious by SIFT and PolyPhen.
+00:00:16,423 --> 00:00:19,245
+We found two already-approved drugs worth trying —
 
 9
-00:00:33,000 --> 00:00:37,500
-BUB1B encodes BUBR1, a core protein of the mitotic spindle checkpoint —
+00:00:19,245 --> 00:00:21,333
+not because we picked them at random,
 
 10
-00:00:37,500 --> 00:00:42,000
-the quality control system that stops a cell from dividing
+00:00:21,333 --> 00:00:25,170
+but because we understood exactly how this disease damages the cell.
 
 11
-00:00:42,000 --> 00:00:45,500
-until every chromosome is properly attached.
+00:00:25,170 --> 00:00:30,579
+The child has both copies of the BUB1B gene damaged.
 
 12
-00:00:50,000 --> 00:00:54,500
-When BUBR1 drops below a functional threshold,
+00:00:30,579 --> 00:00:36,715
+One variant is already registered in ClinVar as pathogenic.
 
 13
-00:00:54,500 --> 00:00:58,000
-cells can no longer reliably hold the checkpoint.
+00:00:36,715 --> 00:00:40,356
+The other is new, not reported yet,
 
 14
-00:00:58,000 --> 00:01:02,000
-Chromosomes separate too early, cells end up with the wrong chromosome number,
+00:00:40,356 --> 00:00:45,036
+but SIFT and PolyPhen predict it as damaging.
 
 15
-00:01:02,000 --> 00:01:07,000
-and that instability — repeated across a lifetime of cell divisions —
+00:00:45,036 --> 00:00:48,156
+BUB1B makes the BUBR1 protein,
 
 16
-00:01:07,000 --> 00:01:11,500
-is what predisposes these children to cancers like rhabdomyosarcoma.
+00:00:48,156 --> 00:00:53,045
+a key piece of the mitotic spindle checkpoint —
 
 17
-00:01:11,500 --> 00:01:15,000
-This isn't just one paper's claim:
+00:00:53,045 --> 00:00:58,141
+basically the system that checks every chromosome
 
 18
-00:01:15,000 --> 00:01:19,500
-we pulled the interaction network from STRING and the pathway data from Reactome,
+00:00:58,141 --> 00:01:02,926
+is properly connected before the cell divides.
 
 19
-00:01:19,500 --> 00:01:25,500
-and BUB1B sits at the center of exactly this checkpoint module, independently, in both databases.
+00:01:02,926 --> 00:01:07,043
+When the amount of BUBR1 drops,
 
 20
-00:01:30,000 --> 00:01:35,000
-So the question for Track 2 isn't "how do we fix the checkpoint" —
+00:01:07,043 --> 00:01:12,224
+that checkpoint stops working properly.
 
 21
-00:01:35,000 --> 00:01:40,500
-it's "given a cell that already has a weak checkpoint,
+00:01:12,224 --> 00:01:16,341
+Chromosomes separate too early;
 
 22
-00:01:40,500 --> 00:01:43,500
-what already-approved drug exploits that weakness?"
+00:01:16,341 --> 00:01:23,514
+the cell ends up with the wrong number of chromosomes,
 
 23
-00:01:43,500 --> 00:01:48,000
-We found two candidates, each backed by a specific mechanistic study, not a hunch.
+00:01:23,514 --> 00:01:31,085
+and over time that instability predisposes these children
 
 24
-00:01:48,000 --> 00:01:52,500
-Bosutinib, an approved leukemia drug, was shown in an independent screen
+00:01:31,085 --> 00:01:35,468
+to cancers like rhabdomyosarcoma.
 
 25
-00:01:52,500 --> 00:01:56,500
-to be selectively toxic to cells with a defective spindle checkpoint —
+00:01:35,468 --> 00:01:41,711
+We also checked this in STRING and in Reactome,
 
 26
-00:01:56,500 --> 00:01:59,000
-exactly this cell's biology.
+00:01:41,711 --> 00:01:44,766
+two separate databases,
 
 27
-00:01:59,000 --> 00:02:03,500
-Metformin, one of the most widely used and safest drugs in the world,
+00:01:44,766 --> 00:01:50,477
+and in both, BUB1B sits right at the center
 
 28
-00:02:03,500 --> 00:02:08,000
-was shown in a separate screen to selectively stress aneuploid cells
+00:01:50,477 --> 00:01:53,266
+of this same pathway.
 
 29
-00:02:08,000 --> 00:02:10,000
-through the AMPK energy-sensing pathway.
+00:01:53,266 --> 00:01:58,032
+So for Track 2 the question wasn't how do we fix the checkpoint,
 
 30
-00:02:10,000 --> 00:02:14,500
-Both are cheap, generic, and already deeply characterized in humans —
+00:01:58,032 --> 00:01:59,820
+but something different:
 
 31
-00:02:14,500 --> 00:02:18,500
-which matters enormously for an ultra-rare disease with no dedicated drug pipeline.
+00:01:59,820 --> 00:02:03,022
+if this cell already has a weak checkpoint,
 
 32
-00:02:18,500 --> 00:02:19,999
-And just as important:
+00:02:03,022 --> 00:02:06,224
+what approved drug takes advantage of that?
 
 33
-00:02:20,000 --> 00:02:24,500
-we explicitly ruled out a whole class of drugs — checkpoint inhibitors
+00:02:06,224 --> 00:02:07,192
+We found two.
 
 34
-00:02:24,500 --> 00:02:26,000
-already in cancer development —
+00:02:07,192 --> 00:02:09,352
+Bosutinib, used for leukemia,
 
 35
-00:02:26,000 --> 00:02:28,500
-because in this patient they'd push in exactly the wrong direction.
+00:02:09,352 --> 00:02:13,298
+was already shown in a study to be specifically toxic
 
 36
-00:02:28,500 --> 00:02:33,000
-This mechanism isn't unique to this one mutation.
+00:02:13,298 --> 00:02:16,128
+to cells with a defective checkpoint —
 
 37
-00:02:33,000 --> 00:02:38,000
-It generalizes to the other two known MVA genes,
+00:02:16,128 --> 00:02:17,766
+exactly the case here.
 
 38
-00:02:38,000 --> 00:02:41,500
-and to chromosomally unstable tumors more broadly —
+00:02:17,766 --> 00:02:22,979
+And metformin, which you probably know because it's used for diabetes,
 
 39
-00:02:41,500 --> 00:02:46,500
-the same vulnerability has independently shown up in glioblastoma and prostate cancer research.
+00:02:22,979 --> 00:02:27,224
+in a 2011 study published in Cell by Tang and colleagues,
 
 40
-00:02:46,500 --> 00:02:51,000
-The pipeline we used — phenotype, to mechanism, to literature-mined approved drugs —
+00:02:27,224 --> 00:02:32,064
+showed that it selectively stresses aneuploid cells through AMPK.
 
 41
-00:02:51,000 --> 00:02:53,000
-is reusable for the next undiagnosed case, not just this one.
+00:02:32,064 --> 00:02:36,384
+Both are cheap, generic drugs with years of use in humans,
 
 42
-00:02:53,000 --> 00:02:57,500
-These are hypotheses for follow-up, not proven treatments —
+00:02:36,384 --> 00:02:39,437
+which matters a lot for a disease so rare
 
 43
-00:02:57,500 --> 00:03:02,000
-validating them in this child's own cells is the obvious next step.
+00:02:39,437 --> 00:02:43,533
+that nobody is going to develop a new drug just for it.
 
 44
-00:03:02,000 --> 00:03:08,000
-But for a family that had no genetic answer six weeks ago,
+00:02:43,533 --> 00:02:46,511
+And something we deliberately ruled out:
 
 45
-00:03:08,000 --> 00:03:11,000
-we think this is a real, testable place to start.
+00:02:46,511 --> 00:02:50,309
+checkpoint inhibitors being developed for oncology.
+
+46
+00:02:50,309 --> 00:02:52,916
+Those go in the opposite direction,
+
+47
+00:02:52,916 --> 00:02:56,192
+because here the checkpoint is already weak.
+
+48
+00:02:56,192 --> 00:02:57,841
+And we didn't stop at theory.
+
+49
+00:02:57,841 --> 00:03:00,968
+We checked whether bosutinib actually binds its target,
+
+50
+00:03:00,968 --> 00:03:01,651
+and it does:
+
+51
+00:03:01,651 --> 00:03:03,357
+a crystal structure, PDB 4MXO,
+
+52
+00:03:03,357 --> 00:03:05,574
+of bosutinib bound to human Src kinase.
+
+53
+00:03:05,574 --> 00:03:08,474
+It's the same mechanism Schukken described in 2020.
+
+54
+00:03:08,474 --> 00:03:10,862
+Another structure shows it also binds Abl.
+
+55
+00:03:10,862 --> 00:03:12,795
+This isn't a computer prediction —
+
+56
+00:03:12,795 --> 00:03:15,070
+it's already been proven experimentally.
+
+57
+00:03:15,070 --> 00:03:17,950
+And this doesn't apply only to this mutation.
+
+58
+00:03:17,950 --> 00:03:20,125
+The other two genes that cause MVA
+
+59
+00:03:20,125 --> 00:03:21,725
+reach the same mechanism,
+
+60
+00:03:21,725 --> 00:03:24,797
+and the same vulnerability has already been seen
+
+61
+00:03:24,797 --> 00:03:27,100
+in glioblastoma and prostate cancer.
+
+62
+00:03:27,100 --> 00:03:31,004
+The path we followed — phenotype, mechanism, approved drugs —
+
+63
+00:03:31,004 --> 00:03:33,948
+can be repeated for the next undiagnosed case.
+
+64
+00:03:33,948 --> 00:03:36,585
+These are hypotheses, not proven treatments.
+
+65
+00:03:36,585 --> 00:03:38,682
+The next step would be testing them
+
+66
+00:03:38,682 --> 00:03:40,300
+in the patient's own cells.
+
+67
+00:03:40,300 --> 00:03:43,596
+But for a family that recently had no diagnosis at all,
+
+68
+00:03:43,596 --> 00:03:46,533
+we believe this is already a real starting point.
+
