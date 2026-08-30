@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:04,000
+This project starts with a real child
+
+2
+00:00:04,000 --> 00:00:08,500
+living with Mosaic Variegated Aneuploidy —
+
+3
+00:00:08,500 --> 00:00:12,000
+an ultra-rare disease with no approved treatment.
+
+4
+00:00:12,000 --> 00:00:15,500
+In Track 1, we found a likely causal genetic diagnosis.
+
+5
+00:00:15,500 --> 00:00:20,000
+This pitch is about two already-approved drugs worth investigating.
+
+6
+00:00:20,000 --> 00:00:24,500
+The proband carries two damaged copies of BUB1B —
+
+7
+00:00:24,500 --> 00:00:28,500
+one is a known pathogenic stop-gained variant, already in ClinVar,
+
+8
+00:00:28,500 --> 00:00:33,000
+the other a novel missense variant predicted deleterious by SIFT and PolyPhen.
+
+9
+00:00:33,000 --> 00:00:37,500
+BUB1B encodes BUBR1, a core protein of the mitotic spindle checkpoint —
+
+10
+00:00:37,500 --> 00:00:42,000
+the quality control system that stops a cell from dividing
+
+11
+00:00:42,000 --> 00:00:45,500
+until every chromosome is properly attached.
+
+12
+00:00:50,000 --> 00:00:54,500
+When BUBR1 drops below a functional threshold,
+
+13
+00:00:54,500 --> 00:00:58,000
+cells can no longer reliably hold the checkpoint.
+
+14
+00:00:58,000 --> 00:01:02,000
+Chromosomes separate too early, cells end up with the wrong chromosome number,
+
+15
+00:01:02,000 --> 00:01:07,000
+and that instability — repeated across a lifetime of cell divisions —
+
+16
+00:01:07,000 --> 00:01:11,500
+is what predisposes these children to cancers like rhabdomyosarcoma.
+
+17
+00:01:11,500 --> 00:01:15,000
+This isn't just one paper's claim:
+
+18
+00:01:15,000 --> 00:01:19,500
+we pulled the interaction network from STRING and the pathway data from Reactome,
+
+19
+00:01:19,500 --> 00:01:25,500
+and BUB1B sits at the center of exactly this checkpoint module, independently, in both databases.
+
+20
+00:01:30,000 --> 00:01:35,000
+So the question for Track 2 isn't "how do we fix the checkpoint" —
+
+21
+00:01:35,000 --> 00:01:40,500
+it's "given a cell that already has a weak checkpoint,
+
+22
+00:01:40,500 --> 00:01:43,500
+what already-approved drug exploits that weakness?"
+
+23
+00:01:43,500 --> 00:01:48,000
+We found two candidates, each backed by a specific mechanistic study, not a hunch.
+
+24
+00:01:48,000 --> 00:01:52,500
+Bosutinib, an approved leukemia drug, was shown in an independent screen
+
+25
+00:01:52,500 --> 00:01:56,500
+to be selectively toxic to cells with a defective spindle checkpoint —
+
+26
+00:01:56,500 --> 00:01:59,000
+exactly this cell's biology.
+
+27
+00:01:59,000 --> 00:02:03,500
+Metformin, one of the most widely used and safest drugs in the world,
+
+28
+00:02:03,500 --> 00:02:08,000
+was shown in a separate screen to selectively stress aneuploid cells
+
+29
+00:02:08,000 --> 00:02:10,000
+through the AMPK energy-sensing pathway.
+
+30
+00:02:10,000 --> 00:02:14,500
+Both are cheap, generic, and already deeply characterized in humans —
+
+31
+00:02:14,500 --> 00:02:18,500
+which matters enormously for an ultra-rare disease with no dedicated drug pipeline.
+
+32
+00:02:18,500 --> 00:02:19,999
+And just as important:
+
+33
+00:02:20,000 --> 00:02:24,500
+we explicitly ruled out a whole class of drugs — checkpoint inhibitors
+
+34
+00:02:24,500 --> 00:02:26,000
+already in cancer development —
+
+35
+00:02:26,000 --> 00:02:28,500
+because in this patient they'd push in exactly the wrong direction.
+
+36
+00:02:28,500 --> 00:02:33,000
+This mechanism isn't unique to this one mutation.
+
+37
+00:02:33,000 --> 00:02:38,000
+It generalizes to the other two known MVA genes,
+
+38
+00:02:38,000 --> 00:02:41,500
+and to chromosomally unstable tumors more broadly —
+
+39
+00:02:41,500 --> 00:02:46,500
+the same vulnerability has independently shown up in glioblastoma and prostate cancer research.
+
+40
+00:02:46,500 --> 00:02:51,000
+The pipeline we used — phenotype, to mechanism, to literature-mined approved drugs —
+
+41
+00:02:51,000 --> 00:02:53,000
+is reusable for the next undiagnosed case, not just this one.
+
+42
+00:02:53,000 --> 00:02:57,500
+These are hypotheses for follow-up, not proven treatments —
+
+43
+00:02:57,500 --> 00:03:02,000
+validating them in this child's own cells is the obvious next step.
+
+44
+00:03:02,000 --> 00:03:08,000
+But for a family that had no genetic answer six weeks ago,
+
+45
+00:03:08,000 --> 00:03:11,000
+we think this is a real, testable place to start.
